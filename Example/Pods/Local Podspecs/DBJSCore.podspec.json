@@ -1,0 +1,23 @@
+{
+  "name": "DBJSCore",
+  "version": "0.1.0",
+  "summary": "A short description of DBJSCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xujiebing/DBJSCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xujiebing": "xujiebing@bwton.com"
+  },
+  "source": {
+    "git": "https://github.com/xujiebing/DBJSCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DBJSCore/Classes/**/*",
+  "resources": "DBJSCore/Assets/DBJSCore.bundle"
+}

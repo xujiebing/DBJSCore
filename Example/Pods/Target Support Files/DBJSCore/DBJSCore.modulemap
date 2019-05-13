@@ -1,0 +1,6 @@
+framework module DBJSCore {
+  umbrella header "DBJSCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

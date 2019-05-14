@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DBJSCoreManager.h"
+#import "DBJSCoreRegisterModel.h"
 
 FOUNDATION_EXPORT double DBJSCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char DBJSCoreVersionString[];

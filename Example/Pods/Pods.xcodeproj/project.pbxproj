@@ -7,38 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0437D5B22A2B950C89AEC947EAFBDB39 /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		0AA1E21142869B44EBFB41ABD4717FD3 /* Pods-DBJSCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5340E42F67101F1D9F61C9359A298E60 /* Pods-DBJSCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13D3F3ED0F4B6094D2D34A1A95F4B8D1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D1FD0885B16F43062C22FE558DF47 /* ReplaceMe.m */; };
 		165A9E1734165BAADE84250B90055B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		27153831AF83BE29F4F786E0EBB1523C /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025A035863EBF24A97D44D8E33ED864 /* DBJSCore-dummy.m */; };
+		20D6257D8AE05394F9A691433ABAD30D /* DBJSCoreRegisterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AD4381D406F66F7495EE63F9674B221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		2DA1AEB2594558318FC238C925D204AA /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3379B6D4091F3367D63527775BC3C72E /* DBJSCoreRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4472A4C0008ACAC1EF5856C762324A2C /* Pods-DBJSCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F64989EF8E317B9FCB485B29D20B11 /* Pods-DBJSCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
+		6806381A072315EE71EC6FDEEE721A85 /* DBJSCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6CDFD269A8F117C2C38467254CF6A1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		6E473DC68A5478A30786A2BE540161B5 /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91619AD187450CFD40FA45716D56C82E /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		88304BC1558464EFF89E00FBC1BD3F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A86B72AD7B62380079A057ED42169617 /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C99A1E51930438F577F418691C182FB /* DBJSCore.bundle */; };
 		AEA27E111468CADF635CABBB83BA27A2 /* Pods-DBJSCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF21635865F62AF2040A7C2362C955A /* Pods-DBJSCore_Example-dummy.m */; };
 		B12BB51DFF19DB04A8B43EC38FFEF7A5 /* Pods-DBJSCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231A80C88BAC87F963C21E99A8C46495 /* Pods-DBJSCore_Tests-dummy.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7194C200BFA093C542307A3D83EA84 /* DBJSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		E04F364D426BF88072C2BC8B42094C06 /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +57,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EC8D0DF17C27490C0FCAD94F8B78CAB7;
+			remoteGlobalIDString = 2E91D9CBD179181420FCB7DDA0740C75;
 			remoteInfo = DBJSCore;
 		};
 /* End PBXContainerItemProxy section */
@@ -61,68 +65,81 @@
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		1025A035863EBF24A97D44D8E33ED864 /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
-		12253895FCCF2A733B8E2FA5474D9243 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreRegisterModel.h; sourceTree = "<group>"; };
+		128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		152E7FBB0B3D30CA9B6AA4BD0298EA9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165363D0C270C3B2DF91D43E4743E1AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199A59A265D0B3346D54D98B3D3CB9F8 /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AF1D16EFFBF801A59549A3D43704F02 /* Pods-DBJSCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		231A80C88BAC87F963C21E99A8C46495 /* Pods-DBJSCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Tests-dummy.m"; sourceTree = "<group>"; };
-		2392719C64D5DB373C048A5EEEBCEFD3 /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
-		253D1FD0885B16F43062C22FE558DF47 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DBJSCore/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		2EE38512B0EC594F3399A2E95A432FB3 /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		30866DFBE8222E56A0559C9CD102DC19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		326EBC13735794C9C8166EC3C97E8E3B /* Pods-DBJSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3373739652CC0F7543868AB53530D649 /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36B4262F9716C5824CA1BF9BF66AD6A3 /* Pods-DBJSCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBJSCore.framework; path = DBJSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		443AA9B08ED02FB8EA94D46346DFF386 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4604B9530B47C608FBEFDBC98BD1080A /* Pods_DBJSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Example.framework; path = "Pods-DBJSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4C99A1E51930438F577F418691C182FB /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
 		4EA4910CE71D8ECCE1C0341E01C90D06 /* Pods-DBJSCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F8FB4292E7349A4ECA9BF8A87BA7701 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5340E42F67101F1D9F61C9359A298E60 /* Pods-DBJSCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Tests-umbrella.h"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreManager.m; sourceTree = "<group>"; };
+		5D189332321046FAD0A5F1717DBCC45B /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
 		5DBD82670945A3A84C0580CE0A8E26E5 /* Pods_DBJSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Tests.framework; path = "Pods-DBJSCore_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F410A090ACC6B017DFC703CC5AAEC9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7269B1AC5E6D8BB8A64D73F85FF83286 /* Pods-DBJSCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8AACB2DFC416C4B4FD2882CE0895982C /* Pods-DBJSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		8EF21635865F62AF2040A7C2362C955A /* Pods-DBJSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Example-dummy.m"; sourceTree = "<group>"; };
-		91619AD187450CFD40FA45716D56C82E /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96253DFD70A957B3B391DA631C7C86E0 /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
+		96EB5C5C0E3203B5324E2BB40761F10D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		9D6A4BE689F9332510D41CD329497483 /* Pods-DBJSCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Tests.modulemap"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A1F64989EF8E317B9FCB485B29D20B11 /* Pods-DBJSCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
 		A8B066DA2C5B65E682DA56F2F18073AB /* Pods-DBJSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BA5BD5961D4B352F331797AA3F202799 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C3672CABB60EE1729B056D9CD10E6F9F /* Pods-DBJSCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9F5D74717EC0EE3D51071ED185B226D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CFA33FDE931A9A1AD6E5F0DE243E1E65 /* Pods-DBJSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D47C930663BCDE0F9111D80A7E7A63B4 /* Pods-DBJSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Example.modulemap"; sourceTree = "<group>"; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreManager.h; sourceTree = "<group>"; };
 		DE15601E5621B1E3BD96D9BA4C3DEB79 /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E2304B594F55118161E8F8BDB386A2CE /* Pods-DBJSCore_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-resources.sh"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreRegisterModel.m; sourceTree = "<group>"; };
 		ED7F923B4176E27C017051C740039E76 /* Pods-DBJSCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F2B9B9EEBA2488F13E47F6729CC2DA42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B605AE58177029D3E507D823D2CE4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD4381D406F66F7495EE63F9674B221 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,14 +159,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73B6F57347792A8121714E0572CAC37D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6CDFD269A8F117C2C38467254CF6A1E4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB3BB2B2EB146AA590D6FD7C7F3649B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,12 +170,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04A2BE43026820E475A021DA30F5AD5F /* Development Pods */ = {
+		0035C8E9D60FB173F6BDB8923E629399 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				72755DA4D1C88E706DBFC383FF4A44C7 /* DBJSCore */,
+				B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -186,16 +195,6 @@
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		2A291E34361489670C83D136AFF9A417 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3373739652CC0F7543868AB53530D649 /* DBJSCore.podspec */,
-				443AA9B08ED02FB8EA94D46346DFF386 /* LICENSE */,
-				12253895FCCF2A733B8E2FA5474D9243 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		2C0D58A235D0AC38F0C075E732900C40 /* Pods-DBJSCore_Example */ = {
@@ -241,14 +240,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		3D6A1A1EE3490B7FF5CFD33F6EC8FD33 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4C99A1E51930438F577F418691C182FB /* DBJSCore.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,13 +251,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72755DA4D1C88E706DBFC383FF4A44C7 /* DBJSCore */ = {
+		51E9CFD713BEC1CDE69F08BFDAE987B9 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				253D1FD0885B16F43062C22FE558DF47 /* ReplaceMe.m */,
-				2A291E34361489670C83D136AFF9A417 /* Pod */,
-				3D6A1A1EE3490B7FF5CFD33F6EC8FD33 /* Resources */,
-				CE675C47BC8B82887DE23EA4D9BF5558 /* Support Files */,
+				DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */,
+				5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */,
+			);
+			name = Manager;
+			path = DBJSCore/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		6CC8FCFB9081754768CCF82486CC45BE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				199A59A265D0B3346D54D98B3D3CB9F8 /* DBJSCore.podspec */,
+				6F410A090ACC6B017DFC703CC5AAEC9A /* LICENSE */,
+				C9F5D74717EC0EE3D51071ED185B226D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		707B9BEFE08943511A3D46E292E7D223 /* JSCore */ = {
+			isa = PBXGroup;
+			children = (
+				96EB5C5C0E3203B5324E2BB40761F10D /* ReplaceMe.m */,
+			);
+			name = JSCore;
+			path = DBJSCore/Classes/JSCore;
+			sourceTree = "<group>";
+		};
+		73DB47A31C5B983331D592152F72AEE7 /* DBJSCore */ = {
+			isa = PBXGroup;
+			children = (
+				707B9BEFE08943511A3D46E292E7D223 /* JSCore */,
+				51E9CFD713BEC1CDE69F08BFDAE987B9 /* Manager */,
+				A121521084846FAE69CF0E3EE310EF34 /* Model */,
+				6CC8FCFB9081754768CCF82486CC45BE /* Pod */,
+				0035C8E9D60FB173F6BDB8923E629399 /* Resources */,
+				9D3CC656125826E0E8D6D858426431EB /* Support Files */,
 			);
 			name = DBJSCore;
 			path = ../..;
@@ -285,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				04A2BE43026820E475A021DA30F5AD5F /* Development Pods */,
+				AB926FD763DC8702F72F7B5B4B6A078B /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				2E8EEA5A1E5201E17274A7AE4BE58467 /* Products */,
@@ -299,6 +321,39 @@
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9D3CC656125826E0E8D6D858426431EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D189332321046FAD0A5F1717DBCC45B /* DBJSCore.modulemap */,
+				A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */,
+				D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */,
+				96253DFD70A957B3B391DA631C7C86E0 /* DBJSCore-prefix.pch */,
+				128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */,
+				165363D0C270C3B2DF91D43E4743E1AB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DBJSCore";
+			sourceTree = "<group>";
+		};
+		A121521084846FAE69CF0E3EE310EF34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */,
+				EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */,
+				8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */,
+			);
+			name = Model;
+			path = DBJSCore/Classes/Model;
+			sourceTree = "<group>";
+		};
+		AB926FD763DC8702F72F7B5B4B6A078B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73DB47A31C5B983331D592152F72AEE7 /* DBJSCore */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C4A72AF10DA1E862F173C1ACE1F10C95 /* Pods-DBJSCore_Tests */ = {
@@ -317,20 +372,6 @@
 			);
 			name = "Pods-DBJSCore_Tests";
 			path = "Target Support Files/Pods-DBJSCore_Tests";
-			sourceTree = "<group>";
-		};
-		CE675C47BC8B82887DE23EA4D9BF5558 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2EE38512B0EC594F3399A2E95A432FB3 /* DBJSCore.modulemap */,
-				BA5BD5961D4B352F331797AA3F202799 /* DBJSCore.xcconfig */,
-				1025A035863EBF24A97D44D8E33ED864 /* DBJSCore-dummy.m */,
-				2392719C64D5DB373C048A5EEEBCEFD3 /* DBJSCore-prefix.pch */,
-				91619AD187450CFD40FA45716D56C82E /* DBJSCore-umbrella.h */,
-				F2B9B9EEBA2488F13E47F6729CC2DA42 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DBJSCore";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -373,11 +414,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2D21BE1904A8CDF4ECD4F64CF85CA1 /* Headers */ = {
+		62C88342C8604A145CF678906B50D266 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E473DC68A5478A30786A2BE540161B5 /* DBJSCore-umbrella.h in Headers */,
+				E04F364D426BF88072C2BC8B42094C06 /* DBJSCore-umbrella.h in Headers */,
+				6806381A072315EE71EC6FDEEE721A85 /* DBJSCoreManager.h in Headers */,
+				20D6257D8AE05394F9A691433ABAD30D /* DBJSCoreRegisterModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +468,24 @@
 			productReference = 4604B9530B47C608FBEFDBC98BD1080A /* Pods_DBJSCore_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2B3928630ADB66E9E00109FF6F0A4A /* Build configuration list for PBXNativeTarget "DBJSCore" */;
+			buildPhases = (
+				81172B309EDEA85D46ABD61B112EF5EE /* Sources */,
+				1B605AE58177029D3E507D823D2CE4F0 /* Frameworks */,
+				62C88342C8604A145CF678906B50D266 /* Headers */,
+				CD6B485C1DD01C1EE8AAD3C5D65E3AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBJSCore;
+			productName = DBJSCore;
+			productReference = 3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -460,24 +521,6 @@
 			productReference = 5DBD82670945A3A84C0580CE0A8E26E5 /* Pods_DBJSCore_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EC8D0DF17C27490C0FCAD94F8B78CAB7 /* DBJSCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A05F6B25DA21CE69FC347B564847919 /* Build configuration list for PBXNativeTarget "DBJSCore" */;
-			buildPhases = (
-				3868879AAD1420A7E0406623FADD69C6 /* Sources */,
-				73B6F57347792A8121714E0572CAC37D /* Frameworks */,
-				89821B9E13EDDD2654B1AF7E201A09E2 /* Resources */,
-				5F2D21BE1904A8CDF4ECD4F64CF85CA1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DBJSCore;
-			productName = DBJSCore;
-			productReference = 3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -499,7 +542,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC8D0DF17C27490C0FCAD94F8B78CAB7 /* DBJSCore */,
+				2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				1978FD58DD07D002924F11310536354D /* Pods-DBJSCore_Example */,
 				568945C3EB971053B92D9427268D94E4 /* Pods-DBJSCore_Tests */,
@@ -508,31 +551,34 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89821B9E13EDDD2654B1AF7E201A09E2 /* Resources */ = {
+		CD6B485C1DD01C1EE8AAD3C5D65E3AEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A86B72AD7B62380079A057ED42169617 /* DBJSCore.bundle in Resources */,
+				2DA1AEB2594558318FC238C925D204AA /* DBJSCore.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3868879AAD1420A7E0406623FADD69C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27153831AF83BE29F4F786E0EBB1523C /* DBJSCore-dummy.m in Sources */,
-				13D3F3ED0F4B6094D2D34A1A95F4B8D1 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69514C49B8DBA8A98C27E68F30EEDB87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AEA27E111468CADF635CABBB83BA27A2 /* Pods-DBJSCore_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81172B309EDEA85D46ABD61B112EF5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437D5B22A2B950C89AEC947EAFBDB39 /* DBJSCore-dummy.m in Sources */,
+				BC7194C200BFA093C542307A3D83EA84 /* DBJSCoreManager.m in Sources */,
+				3379B6D4091F3367D63527775BC3C72E /* DBJSCoreRegisterModel.m in Sources */,
+				8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */,
+				8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +618,7 @@
 		EED8975798F0453F774290095D0A144B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DBJSCore;
-			target = EC8D0DF17C27490C0FCAD94F8B78CAB7 /* DBJSCore */;
+			target = 2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */;
 			targetProxy = DAF75DBCCDAEC82F1F9B93044D13DD36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -644,9 +690,39 @@
 			};
 			name = Debug;
 		};
-		6AC0A5E3E179D05AA683C57AF86CA7E1 /* Debug */ = {
+		58C4F8F039278EAD3E27169FCBD2158E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5BD5961D4B352F331797AA3F202799 /* DBJSCore.xcconfig */;
+			baseConfigurationReference = A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DBJSCore/DBJSCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBJSCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DBJSCore/DBJSCore.modulemap";
+				PRODUCT_NAME = DBJSCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C37338C6F6F9C406298B6A28405E6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -801,36 +877,6 @@
 			};
 			name = Debug;
 		};
-		C434B0CDCD3830C632B64EE94F67A300 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5BD5961D4B352F331797AA3F202799 /* DBJSCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DBJSCore/DBJSCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DBJSCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DBJSCore/DBJSCore.modulemap";
-				PRODUCT_NAME = DBJSCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -955,20 +1001,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A05F6B25DA21CE69FC347B564847919 /* Build configuration list for PBXNativeTarget "DBJSCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AC0A5E3E179D05AA683C57AF86CA7E1 /* Debug */,
-				C434B0CDCD3830C632B64EE94F67A300 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
 				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2B3928630ADB66E9E00109FF6F0A4A /* Build configuration list for PBXNativeTarget "DBJSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C37338C6F6F9C406298B6A28405E6C0 /* Debug */,
+				58C4F8F039278EAD3E27169FCBD2158E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

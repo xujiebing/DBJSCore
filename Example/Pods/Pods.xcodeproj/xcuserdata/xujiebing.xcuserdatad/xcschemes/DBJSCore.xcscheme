@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC8D0DF17C27490C0FCAD94F8B78CAB7"
+               BlueprintIdentifier = "2E91D9CBD179181420FCB7DDA0740C75"
                BlueprintName = "DBJSCore"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "DBJSCore.framework">

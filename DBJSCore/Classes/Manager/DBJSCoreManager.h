@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <JavaScriptCore/JavaScriptCore.h>
 #import "DBJSCoreRegisterModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -13,11 +14,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DBJSCoreManager : NSObject
 
 /**
+ 异常回调
+ */
+@property (nonatomic, copy, readonly) void(^exceptionHandler)(NSString *code, NSString *exception);
+
+/**
  注册OC方法
 
  @param objArray 对象名数组
  */
-- (void)dbRegisterOCFunctionWithObjectArray:(NSArray * <DBJSCoreRegisterModel *>)objArray;
+- (void)dbRegisterOCFunctionWithObjectArray:(NSArray <DBJSCoreRegisterModel *> *)objArray;
 
 /**
  注册JS方法
@@ -25,6 +31,13 @@ NS_ASSUME_NONNULL_BEGIN
  @param jsonUrl JS方法集合文件的路径
  */
 - (void)dbRegisterJSFunctionWithJsonPath:(NSURL *)jsonUrl;
+
+/**
+ 注册JS代码
+
+ @param pathArray JS文件地址数组
+ */
+- (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray *)pathArray;
 
 /**
  调用JS方法

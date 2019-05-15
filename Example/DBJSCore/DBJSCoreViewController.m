@@ -7,6 +7,7 @@
 //
 
 #import "DBJSCoreViewController.h"
+#import "DBJSCoreManager.h"
 
 @interface DBJSCoreViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    DBJSCoreManager *jsCoreManager = [[DBJSCoreManager alloc] init];
+    
 }
 
 - (void)didReceiveMemoryWarning

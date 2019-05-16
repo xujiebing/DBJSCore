@@ -18,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    DBJSCoreManager *jsCoreManager = [[DBJSCoreManager alloc] init];
+//    DBJSCoreManager *jsCoreManager = [[DBJSCoreManager alloc] init];
     
 }
 

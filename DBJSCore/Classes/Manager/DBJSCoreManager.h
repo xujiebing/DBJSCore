@@ -19,25 +19,25 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) void(^exceptionHandler)(NSString *code, NSString *exception);
 
 /**
- 注册OC方法
+ 注册OC对象
 
  @param objArray 对象名数组
  */
-- (void)dbRegisterOCFunctionWithObjectArray:(NSArray <DBJSCoreRegisterModel *> *)objArray;
-
-/**
- 注册JS方法
-
- @param jsonUrl JS方法集合文件的路径
- */
-- (void)dbRegisterJSFunctionWithJsonPath:(NSURL *)jsonUrl;
+- (void)dbRegisterOCObjectWithObjectArray:(NSArray <DBJSCoreRegisterModel *> *)objArray;
 
 /**
  注册JS代码
 
  @param pathArray JS文件地址数组
  */
-- (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray *)pathArray;
+- (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray <NSString *>*)pathArray;
+
+/**
+ 注册JS对象
+ 
+ @param path JS方法集合文件的路径
+ */
+- (void)dbRegisterJSObjectWithJsonPath:(NSString *)path;
 
 /**
  调用JS方法

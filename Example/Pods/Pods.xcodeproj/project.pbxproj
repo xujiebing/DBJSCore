@@ -7,150 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0437D5B22A2B950C89AEC947EAFBDB39 /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0AA1E21142869B44EBFB41ABD4717FD3 /* Pods-DBJSCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5340E42F67101F1D9F61C9359A298E60 /* Pods-DBJSCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		165A9E1734165BAADE84250B90055B49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		20D6257D8AE05394F9A691433ABAD30D /* DBJSCoreRegisterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AD4381D406F66F7495EE63F9674B221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		2DA1AEB2594558318FC238C925D204AA /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3379B6D4091F3367D63527775BC3C72E /* DBJSCoreRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4472A4C0008ACAC1EF5856C762324A2C /* Pods-DBJSCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F64989EF8E317B9FCB485B29D20B11 /* Pods-DBJSCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
-		6806381A072315EE71EC6FDEEE721A85 /* DBJSCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		88304BC1558464EFF89E00FBC1BD3F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		AEA27E111468CADF635CABBB83BA27A2 /* Pods-DBJSCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF21635865F62AF2040A7C2362C955A /* Pods-DBJSCore_Example-dummy.m */; };
-		B12BB51DFF19DB04A8B43EC38FFEF7A5 /* Pods-DBJSCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231A80C88BAC87F963C21E99A8C46495 /* Pods-DBJSCore_Tests-dummy.m */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC7194C200BFA093C542307A3D83EA84 /* DBJSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E04F364D426BF88072C2BC8B42094C06 /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4472A4C0008ACAC1EF5856C762324A2C /* Pods-DBJSCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D14DBE8EAE35B3BF1A1B2C0525AF74 /* Pods-DBJSCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60991DC45EB661EAF9C59973DEA68791 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD286535D538C961768BC6039735F4D /* ReplaceMe.m */; };
+		6DCC5DAB1E38C808CBD72597D8FEA8C9 /* DBJSCoreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C42C18E87B245D0077A5FBEBE998743 /* DBJSCoreHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88304BC1558464EFF89E00FBC1BD3F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9F1F5A4C00994CE2F7F5F0EE80876479 /* DBJSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D26C25777D627CEEE54C9EA0A776B998 /* DBJSCoreManager.m */; };
+		9FF6FF807396F21BC5F5F2DFFF324EB8 /* DBJSCoreRegisterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB79BDAE38BA3FD448B21EE6A4BDB22 /* DBJSCoreRegisterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB51297144426FF5A53B74D4869E5D00 /* DBJSCoreRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5428E9973C95A8B4B6A3872C51DF6F /* DBJSCoreRegisterModel.m */; };
+		AEA27E111468CADF635CABBB83BA27A2 /* Pods-DBJSCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFD4AD0F42BAFC2FB32AA7D4B3014C /* Pods-DBJSCore_Example-dummy.m */; };
+		B798B6B2CF8D6EDBB2FF071428B85FE1 /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B5E6D8228F908DADEBF340EF328951 /* DBJSCore-dummy.m */; };
+		C1AA84D091FF33B565E52BD4865C1A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C26743EE0816BFEBB5092FAE94C3C681 /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 368618B7A8C001A2B50B2CBDEBFD5E71 /* DBJSCore.bundle */; };
+		D994239E66C5F2F3C33E3646232F2B29 /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 317DBF046CF0F40185EAD07A8B46D39B /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB53BA9C209631237EA942EA91C4DBF /* DBJSCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7543BEBBB5366314D4F66E9EB9CABF93 /* DBJSCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A8A724E0A20289D4EE2323D55B0D651 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
-			remoteInfo = FBSnapshotTestCase;
-		};
 		DAF75DBCCDAEC82F1F9B93044D13DD36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E91D9CBD179181420FCB7DDA0740C75;
+			remoteGlobalIDString = 6D376B04D32C067EFBFE21878FBEB9B6;
 			remoteInfo = DBJSCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreRegisterModel.h; sourceTree = "<group>"; };
-		128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		152E7FBB0B3D30CA9B6AA4BD0298EA9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		165363D0C270C3B2DF91D43E4743E1AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		199A59A265D0B3346D54D98B3D3CB9F8 /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1AF1D16EFFBF801A59549A3D43704F02 /* Pods-DBJSCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		231A80C88BAC87F963C21E99A8C46495 /* Pods-DBJSCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Tests-dummy.m"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		30866DFBE8222E56A0559C9CD102DC19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		326EBC13735794C9C8166EC3C97E8E3B /* Pods-DBJSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36B4262F9716C5824CA1BF9BF66AD6A3 /* Pods-DBJSCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBJSCore.framework; path = DBJSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		4604B9530B47C608FBEFDBC98BD1080A /* Pods_DBJSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Example.framework; path = "Pods-DBJSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		4EA4910CE71D8ECCE1C0341E01C90D06 /* Pods-DBJSCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F8FB4292E7349A4ECA9BF8A87BA7701 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5340E42F67101F1D9F61C9359A298E60 /* Pods-DBJSCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Tests-umbrella.h"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreManager.m; sourceTree = "<group>"; };
-		5D189332321046FAD0A5F1717DBCC45B /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
-		5DBD82670945A3A84C0580CE0A8E26E5 /* Pods_DBJSCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Tests.framework; path = "Pods-DBJSCore_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F410A090ACC6B017DFC703CC5AAEC9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7269B1AC5E6D8BB8A64D73F85FF83286 /* Pods-DBJSCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8AACB2DFC416C4B4FD2882CE0895982C /* Pods-DBJSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		8EF21635865F62AF2040A7C2362C955A /* Pods-DBJSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Example-dummy.m"; sourceTree = "<group>"; };
+		0989DBA9DE609698BD8F41BA11F8A5AC /* Pods-DBJSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D3925BD27FFB0156FAA91467C6625CE /* Pods-DBJSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		124383B3B2B4E515DB7690A829431A22 /* Pods_DBJSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Example.framework; path = "Pods-DBJSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBE81B7B1C89490F0027A4EF7C25F30 /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AB79BDAE38BA3FD448B21EE6A4BDB22 /* DBJSCoreRegisterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreRegisterModel.h; sourceTree = "<group>"; };
+		2FC5C00C8F6FC07DBB2244DFA8623FCE /* Pods-DBJSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		317DBF046CF0F40185EAD07A8B46D39B /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
+		368618B7A8C001A2B50B2CBDEBFD5E71 /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
+		44ED5DE379C56E9D11050A83C16A4564 /* Pods-DBJSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A5428E9973C95A8B4B6A3872C51DF6F /* DBJSCoreRegisterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreRegisterModel.m; sourceTree = "<group>"; };
+		4C42C18E87B245D0077A5FBEBE998743 /* DBJSCoreHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreHeader.h; path = DBJSCore/Classes/DBJSCoreHeader.h; sourceTree = "<group>"; };
+		4EDFD4AD0F42BAFC2FB32AA7D4B3014C /* Pods-DBJSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Example-dummy.m"; sourceTree = "<group>"; };
+		51A9C780C1BA0CDF08399BD73923CB34 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
+		57A48E6C9B91211BA33FF4777EF2E25B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64B5E6D8228F908DADEBF340EF328951 /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
+		72FD7436ADC9072AF7CFAB4D82E113C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7543BEBBB5366314D4F66E9EB9CABF93 /* DBJSCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreManager.h; sourceTree = "<group>"; };
+		76E4FF9ECFF899DC6819027D7C827FEC /* Pods-DBJSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Example.modulemap"; sourceTree = "<group>"; };
+		7769A18D473AE50AABE3AB094013F06C /* Pods-DBJSCore_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-resources.sh"; sourceTree = "<group>"; };
+		828413B3D6F9A8F982E3E963E6AEEEB0 /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
+		92A2387C96F0C08E338AA759C3CD16CC /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96253DFD70A957B3B391DA631C7C86E0 /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
-		96EB5C5C0E3203B5324E2BB40761F10D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		9D6A4BE689F9332510D41CD329497483 /* Pods-DBJSCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Tests.modulemap"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		A1F64989EF8E317B9FCB485B29D20B11 /* Pods-DBJSCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Example-umbrella.h"; sourceTree = "<group>"; };
-		A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
-		A8B066DA2C5B65E682DA56F2F18073AB /* Pods-DBJSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C3672CABB60EE1729B056D9CD10E6F9F /* Pods-DBJSCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C9F5D74717EC0EE3D51071ED185B226D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CFA33FDE931A9A1AD6E5F0DE243E1E65 /* Pods-DBJSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D47C930663BCDE0F9111D80A7E7A63B4 /* Pods-DBJSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Example.modulemap"; sourceTree = "<group>"; };
-		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DBJSCoreManager.h; sourceTree = "<group>"; };
-		DE15601E5621B1E3BD96D9BA4C3DEB79 /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2304B594F55118161E8F8BDB386A2CE /* Pods-DBJSCore_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-resources.sh"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreRegisterModel.m; sourceTree = "<group>"; };
-		ED7F923B4176E27C017051C740039E76 /* Pods-DBJSCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Tests-resources.sh"; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		A411B332D8F09620B74FBA785A592155 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		AAD286535D538C961768BC6039735F4D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		B1D14DBE8EAE35B3BF1A1B2C0525AF74 /* Pods-DBJSCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		C43879305B4C74BB836648376B0CD661 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D26C25777D627CEEE54C9EA0A776B998 /* DBJSCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreManager.m; sourceTree = "<group>"; };
+		DAE0237843D5C96AE18E100656735401 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE3BC11097CFF1037964E085D251856D /* DBJSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBJSCore.framework; path = DBJSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21618FCDBC6841CB4FA77F6A035EA67 /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B605AE58177029D3E507D823D2CE4F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AD4381D406F66F7495EE63F9674B221 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */,
-				5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */,
-				47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */,
-				18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28FD034E8537D59F9341C38FEC9E53F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,283 +75,175 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB3BB2B2EB146AA590D6FD7C7F3649B6 /* Frameworks */ = {
+		51BAF7185BFA3221A5CFEB0368B92342 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165A9E1734165BAADE84250B90055B49 /* Foundation.framework in Frameworks */,
+				C1AA84D091FF33B565E52BD4865C1A47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0035C8E9D60FB173F6BDB8923E629399 /* Resources */ = {
+		16C25639F587032BA78E41E022278F51 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B1182B87AD1EBC16A7A4453A52F015C6 /* DBJSCore.bundle */,
+				1FBE81B7B1C89490F0027A4EF7C25F30 /* DBJSCore.podspec */,
+				DAE0237843D5C96AE18E100656735401 /* LICENSE */,
+				C43879305B4C74BB836648376B0CD661 /* README.md */,
 			);
-			name = Resources;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		1767D8FA21F7900138EF9815F0E35162 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
+				2977F2ABAADE4458B6A6B6DB2762BAAA /* Pods-DBJSCore_Example */,
 			);
-			name = Frameworks;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+		2977F2ABAADE4458B6A6B6DB2762BAAA /* Pods-DBJSCore_Example */ = {
 			isa = PBXGroup;
 			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		2C0D58A235D0AC38F0C075E732900C40 /* Pods-DBJSCore_Example */ = {
-			isa = PBXGroup;
-			children = (
-				30866DFBE8222E56A0559C9CD102DC19 /* Info.plist */,
-				D47C930663BCDE0F9111D80A7E7A63B4 /* Pods-DBJSCore_Example.modulemap */,
-				326EBC13735794C9C8166EC3C97E8E3B /* Pods-DBJSCore_Example-acknowledgements.markdown */,
-				A8B066DA2C5B65E682DA56F2F18073AB /* Pods-DBJSCore_Example-acknowledgements.plist */,
-				8EF21635865F62AF2040A7C2362C955A /* Pods-DBJSCore_Example-dummy.m */,
-				CFA33FDE931A9A1AD6E5F0DE243E1E65 /* Pods-DBJSCore_Example-frameworks.sh */,
-				E2304B594F55118161E8F8BDB386A2CE /* Pods-DBJSCore_Example-resources.sh */,
-				A1F64989EF8E317B9FCB485B29D20B11 /* Pods-DBJSCore_Example-umbrella.h */,
-				8AACB2DFC416C4B4FD2882CE0895982C /* Pods-DBJSCore_Example.debug.xcconfig */,
-				DE15601E5621B1E3BD96D9BA4C3DEB79 /* Pods-DBJSCore_Example.release.xcconfig */,
+				72FD7436ADC9072AF7CFAB4D82E113C5 /* Info.plist */,
+				76E4FF9ECFF899DC6819027D7C827FEC /* Pods-DBJSCore_Example.modulemap */,
+				44ED5DE379C56E9D11050A83C16A4564 /* Pods-DBJSCore_Example-acknowledgements.markdown */,
+				0D3925BD27FFB0156FAA91467C6625CE /* Pods-DBJSCore_Example-acknowledgements.plist */,
+				4EDFD4AD0F42BAFC2FB32AA7D4B3014C /* Pods-DBJSCore_Example-dummy.m */,
+				2FC5C00C8F6FC07DBB2244DFA8623FCE /* Pods-DBJSCore_Example-frameworks.sh */,
+				7769A18D473AE50AABE3AB094013F06C /* Pods-DBJSCore_Example-resources.sh */,
+				B1D14DBE8EAE35B3BF1A1B2C0525AF74 /* Pods-DBJSCore_Example-umbrella.h */,
+				0989DBA9DE609698BD8F41BA11F8A5AC /* Pods-DBJSCore_Example.debug.xcconfig */,
+				F21618FCDBC6841CB4FA77F6A035EA67 /* Pods-DBJSCore_Example.release.xcconfig */,
 			);
 			name = "Pods-DBJSCore_Example";
 			path = "Target Support Files/Pods-DBJSCore_Example";
 			sourceTree = "<group>";
 		};
-		2E8EEA5A1E5201E17274A7AE4BE58467 /* Products */ = {
+		586C5199CCD1E3D38F28311B85A9492E /* JSCore */ = {
 			isa = PBXGroup;
 			children = (
-				3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */,
-				4F8FB4292E7349A4ECA9BF8A87BA7701 /* FBSnapshotTestCase.framework */,
-				4604B9530B47C608FBEFDBC98BD1080A /* Pods_DBJSCore_Example.framework */,
-				5DBD82670945A3A84C0580CE0A8E26E5 /* Pods_DBJSCore_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
-				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
-				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
-				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		51E9CFD713BEC1CDE69F08BFDAE987B9 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				DD7B066E5DB57D7EF3E8CA36FC4E7EFD /* DBJSCoreManager.h */,
-				5B85C0ECF79CF219B66F23D0AD87856A /* DBJSCoreManager.m */,
-			);
-			name = Manager;
-			path = DBJSCore/Classes/Manager;
-			sourceTree = "<group>";
-		};
-		6CC8FCFB9081754768CCF82486CC45BE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				199A59A265D0B3346D54D98B3D3CB9F8 /* DBJSCore.podspec */,
-				6F410A090ACC6B017DFC703CC5AAEC9A /* LICENSE */,
-				C9F5D74717EC0EE3D51071ED185B226D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		707B9BEFE08943511A3D46E292E7D223 /* JSCore */ = {
-			isa = PBXGroup;
-			children = (
-				96EB5C5C0E3203B5324E2BB40761F10D /* ReplaceMe.m */,
+				A411B332D8F09620B74FBA785A592155 /* ReplaceMe.m */,
 			);
 			name = JSCore;
 			path = DBJSCore/Classes/JSCore;
 			sourceTree = "<group>";
 		};
-		73DB47A31C5B983331D592152F72AEE7 /* DBJSCore */ = {
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				707B9BEFE08943511A3D46E292E7D223 /* JSCore */,
-				51E9CFD713BEC1CDE69F08BFDAE987B9 /* Manager */,
-				A121521084846FAE69CF0E3EE310EF34 /* Model */,
-				6CC8FCFB9081754768CCF82486CC45BE /* Pod */,
-				0035C8E9D60FB173F6BDB8923E629399 /* Resources */,
-				9D3CC656125826E0E8D6D858426431EB /* Support Files */,
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
-			name = DBJSCore;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		7B6BCDB975BFD058762FCAFCC42E661F /* Targets Support Files */ = {
+		68C88342C16915C9FAD4921BA7C9E88A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2C0D58A235D0AC38F0C075E732900C40 /* Pods-DBJSCore_Example */,
-				C4A72AF10DA1E862F173C1ACE1F10C95 /* Pods-DBJSCore_Tests */,
+				2AB79BDAE38BA3FD448B21EE6A4BDB22 /* DBJSCoreRegisterModel.h */,
+				4A5428E9973C95A8B4B6A3872C51DF6F /* DBJSCoreRegisterModel.m */,
+				AAD286535D538C961768BC6039735F4D /* ReplaceMe.m */,
 			);
-			name = "Targets Support Files";
+			name = Model;
+			path = DBJSCore/Classes/Model;
+			sourceTree = "<group>";
+		};
+		68FCB19BDB850472F976ACCB30EFA51E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				368618B7A8C001A2B50B2CBDEBFD5E71 /* DBJSCore.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				AB926FD763DC8702F72F7B5B4B6A078B /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				2E8EEA5A1E5201E17274A7AE4BE58467 /* Products */,
-				7B6BCDB975BFD058762FCAFCC42E661F /* Targets Support Files */,
+				AA4CDAA2C0805F9E43D7780BA2071C0F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E5E77379D945CE3F5EF3CD99B138CC6C /* Products */,
+				1767D8FA21F7900138EF9815F0E35162 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		7EDBAF2654E30A08A8F7109D9A7DAE28 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				7543BEBBB5366314D4F66E9EB9CABF93 /* DBJSCoreManager.h */,
+				D26C25777D627CEEE54C9EA0A776B998 /* DBJSCoreManager.m */,
 			);
-			name = SwiftSupport;
+			name = Manager;
+			path = DBJSCore/Classes/Manager;
 			sourceTree = "<group>";
 		};
-		9D3CC656125826E0E8D6D858426431EB /* Support Files */ = {
+		AA4CDAA2C0805F9E43D7780BA2071C0F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D189332321046FAD0A5F1717DBCC45B /* DBJSCore.modulemap */,
-				A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */,
-				D9448DA7A5682A2C3CC9E1D836B1840A /* DBJSCore-dummy.m */,
-				96253DFD70A957B3B391DA631C7C86E0 /* DBJSCore-prefix.pch */,
-				128E48F92D25A5E253D9BC1D91AA2EEE /* DBJSCore-umbrella.h */,
-				165363D0C270C3B2DF91D43E4743E1AB /* Info.plist */,
+				FF3F9EA319E3B673D784123E1F21ADAE /* DBJSCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD8B12A8590F0DA235B742220341814E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				828413B3D6F9A8F982E3E963E6AEEEB0 /* DBJSCore.modulemap */,
+				51A9C780C1BA0CDF08399BD73923CB34 /* DBJSCore.xcconfig */,
+				64B5E6D8228F908DADEBF340EF328951 /* DBJSCore-dummy.m */,
+				92A2387C96F0C08E338AA759C3CD16CC /* DBJSCore-prefix.pch */,
+				317DBF046CF0F40185EAD07A8B46D39B /* DBJSCore-umbrella.h */,
+				57A48E6C9B91211BA33FF4777EF2E25B /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DBJSCore";
 			sourceTree = "<group>";
 		};
-		A121521084846FAE69CF0E3EE310EF34 /* Model */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F3389081F9CB4B0B8696C900B6D5749 /* DBJSCoreRegisterModel.h */,
-				EB47B19B22CA2B9C3BDFA6F30E5D4F06 /* DBJSCoreRegisterModel.m */,
-				8D4CBCCB9FAB82924D169F5BF571FF73 /* ReplaceMe.m */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
-			name = Model;
-			path = DBJSCore/Classes/Model;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB926FD763DC8702F72F7B5B4B6A078B /* Development Pods */ = {
+		E5E77379D945CE3F5EF3CD99B138CC6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73DB47A31C5B983331D592152F72AEE7 /* DBJSCore */,
+				EE3BC11097CFF1037964E085D251856D /* DBJSCore.framework */,
+				124383B3B2B4E515DB7690A829431A22 /* Pods_DBJSCore_Example.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C4A72AF10DA1E862F173C1ACE1F10C95 /* Pods-DBJSCore_Tests */ = {
+		FF3F9EA319E3B673D784123E1F21ADAE /* DBJSCore */ = {
 			isa = PBXGroup;
 			children = (
-				152E7FBB0B3D30CA9B6AA4BD0298EA9D /* Info.plist */,
-				9D6A4BE689F9332510D41CD329497483 /* Pods-DBJSCore_Tests.modulemap */,
-				36B4262F9716C5824CA1BF9BF66AD6A3 /* Pods-DBJSCore_Tests-acknowledgements.markdown */,
-				C3672CABB60EE1729B056D9CD10E6F9F /* Pods-DBJSCore_Tests-acknowledgements.plist */,
-				231A80C88BAC87F963C21E99A8C46495 /* Pods-DBJSCore_Tests-dummy.m */,
-				7269B1AC5E6D8BB8A64D73F85FF83286 /* Pods-DBJSCore_Tests-frameworks.sh */,
-				ED7F923B4176E27C017051C740039E76 /* Pods-DBJSCore_Tests-resources.sh */,
-				5340E42F67101F1D9F61C9359A298E60 /* Pods-DBJSCore_Tests-umbrella.h */,
-				1AF1D16EFFBF801A59549A3D43704F02 /* Pods-DBJSCore_Tests.debug.xcconfig */,
-				4EA4910CE71D8ECCE1C0341E01C90D06 /* Pods-DBJSCore_Tests.release.xcconfig */,
+				4C42C18E87B245D0077A5FBEBE998743 /* DBJSCoreHeader.h */,
+				586C5199CCD1E3D38F28311B85A9492E /* JSCore */,
+				7EDBAF2654E30A08A8F7109D9A7DAE28 /* Manager */,
+				68C88342C16915C9FAD4921BA7C9E88A /* Model */,
+				16C25639F587032BA78E41E022278F51 /* Pod */,
+				68FCB19BDB850472F976ACCB30EFA51E /* Resources */,
+				AD8B12A8590F0DA235B742220341814E /* Support Files */,
 			);
-			name = "Pods-DBJSCore_Tests";
-			path = "Target Support Files/Pods-DBJSCore_Tests";
-			sourceTree = "<group>";
-		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			name = DBJSCore;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		158CF9546886F9D843DC4B8EAE176CB9 /* Headers */ = {
+		2FFCCD658ABB0F59FA07E103E71D55FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA1E21142869B44EBFB41ABD4717FD3 /* Pods-DBJSCore_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62C88342C8604A145CF678906B50D266 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E04F364D426BF88072C2BC8B42094C06 /* DBJSCore-umbrella.h in Headers */,
-				6806381A072315EE71EC6FDEEE721A85 /* DBJSCoreManager.h in Headers */,
-				20D6257D8AE05394F9A691433ABAD30D /* DBJSCoreRegisterModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
-				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
-				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
-				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
-				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
-				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+				D994239E66C5F2F3C33E3646232F2B29 /* DBJSCore-umbrella.h in Headers */,
+				6DCC5DAB1E38C808CBD72597D8FEA8C9 /* DBJSCoreHeader.h in Headers */,
+				FDB53BA9C209631237EA942EA91C4DBF /* DBJSCoreManager.h in Headers */,
+				9FF6FF807396F21BC5F5F2DFFF324EB8 /* DBJSCoreRegisterModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,17 +273,17 @@
 			);
 			name = "Pods-DBJSCore_Example";
 			productName = "Pods-DBJSCore_Example";
-			productReference = 4604B9530B47C608FBEFDBC98BD1080A /* Pods_DBJSCore_Example.framework */;
+			productReference = 124383B3B2B4E515DB7690A829431A22 /* Pods_DBJSCore_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */ = {
+		6D376B04D32C067EFBFE21878FBEB9B6 /* DBJSCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C2B3928630ADB66E9E00109FF6F0A4A /* Build configuration list for PBXNativeTarget "DBJSCore" */;
+			buildConfigurationList = E83EDB7C5F672C52CD6B3489D8ACF97F /* Build configuration list for PBXNativeTarget "DBJSCore" */;
 			buildPhases = (
-				81172B309EDEA85D46ABD61B112EF5EE /* Sources */,
-				1B605AE58177029D3E507D823D2CE4F0 /* Frameworks */,
-				62C88342C8604A145CF678906B50D266 /* Headers */,
-				CD6B485C1DD01C1EE8AAD3C5D65E3AEC /* Resources */,
+				BC7C4E2E331E0ED502F93C519ADC7F08 /* Sources */,
+				51BAF7185BFA3221A5CFEB0368B92342 /* Frameworks */,
+				2FFCCD658ABB0F59FA07E103E71D55FE /* Headers */,
+				C42CFE0E5DF9CB4028AEDBF07F842884 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -483,42 +291,7 @@
 			);
 			name = DBJSCore;
 			productName = DBJSCore;
-			productReference = 3C6350EFC32B175324890A6414BB850B /* DBJSCore.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
-				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
-				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 4F8FB4292E7349A4ECA9BF8A87BA7701 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		568945C3EB971053B92D9427268D94E4 /* Pods-DBJSCore_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D4572215F1F6D105CBDF604E3EC5C957 /* Build configuration list for PBXNativeTarget "Pods-DBJSCore_Tests" */;
-			buildPhases = (
-				98EF725E3F53C473E091196CF08BAA01 /* Sources */,
-				BB3BB2B2EB146AA590D6FD7C7F3649B6 /* Frameworks */,
-				158CF9546886F9D843DC4B8EAE176CB9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				53F880FFF6B3A7626B9EFD65FBF8FAF1 /* PBXTargetDependency */,
-			);
-			name = "Pods-DBJSCore_Tests";
-			productName = "Pods-DBJSCore_Tests";
-			productReference = 5DBD82670945A3A84C0580CE0A8E26E5 /* Pods_DBJSCore_Tests.framework */;
+			productReference = EE3BC11097CFF1037964E085D251856D /* DBJSCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -538,24 +311,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2E8EEA5A1E5201E17274A7AE4BE58467 /* Products */;
+			productRefGroup = E5E77379D945CE3F5EF3CD99B138CC6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */,
-				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				6D376B04D32C067EFBFE21878FBEB9B6 /* DBJSCore */,
 				1978FD58DD07D002924F11310536354D /* Pods-DBJSCore_Example */,
-				568945C3EB971053B92D9427268D94E4 /* Pods-DBJSCore_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD6B485C1DD01C1EE8AAD3C5D65E3AEC /* Resources */ = {
+		C42CFE0E5DF9CB4028AEDBF07F842884 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA1AEB2594558318FC238C925D204AA /* DBJSCore.bundle in Resources */,
+				C26743EE0816BFEBB5092FAE94C3C681 /* DBJSCore.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,97 +341,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81172B309EDEA85D46ABD61B112EF5EE /* Sources */ = {
+		BC7C4E2E331E0ED502F93C519ADC7F08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0437D5B22A2B950C89AEC947EAFBDB39 /* DBJSCore-dummy.m in Sources */,
-				BC7194C200BFA093C542307A3D83EA84 /* DBJSCoreManager.m in Sources */,
-				3379B6D4091F3367D63527775BC3C72E /* DBJSCoreRegisterModel.m in Sources */,
-				8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */,
-				8ADDFEB231DBC7F893FAC7A846145853 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98EF725E3F53C473E091196CF08BAA01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B12BB51DFF19DB04A8B43EC38FFEF7A5 /* Pods-DBJSCore_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
-				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
-				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
-				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
-				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
-				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
-				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
-				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+				B798B6B2CF8D6EDBB2FF071428B85FE1 /* DBJSCore-dummy.m in Sources */,
+				9F1F5A4C00994CE2F7F5F0EE80876479 /* DBJSCoreManager.m in Sources */,
+				AB51297144426FF5A53B74D4869E5D00 /* DBJSCoreRegisterModel.m in Sources */,
+				60991DC45EB661EAF9C59973DEA68791 /* ReplaceMe.m in Sources */,
+				60991DC45EB661EAF9C59973DEA68791 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53F880FFF6B3A7626B9EFD65FBF8FAF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
-			targetProxy = 7A8A724E0A20289D4EE2323D55B0D651 /* PBXContainerItemProxy */;
-		};
 		EED8975798F0453F774290095D0A144B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DBJSCore;
-			target = 2E91D9CBD179181420FCB7DDA0740C75 /* DBJSCore */;
+			target = 6D376B04D32C067EFBFE21878FBEB9B6 /* DBJSCore */;
 			targetProxy = DAF75DBCCDAEC82F1F9B93044D13DD36 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		090D0DE3B46A7B2CF2BFE27B0EA3D54B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA4910CE71D8ECCE1C0341E01C90D06 /* Pods-DBJSCore_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DBJSCore_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DBJSCore_Tests/Pods-DBJSCore_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DBJSCore_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1BC90C310D1814017D5CEA025D37B971 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AACB2DFC416C4B4FD2882CE0895982C /* Pods-DBJSCore_Example.debug.xcconfig */;
+			baseConfigurationReference = 0989DBA9DE609698BD8F41BA11F8A5AC /* Pods-DBJSCore_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,39 +397,9 @@
 			};
 			name = Debug;
 		};
-		58C4F8F039278EAD3E27169FCBD2158E /* Release */ = {
+		389408383F8E6291B28542FB3103836E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DBJSCore/DBJSCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DBJSCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DBJSCore/DBJSCore.modulemap";
-				PRODUCT_NAME = DBJSCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C37338C6F6F9C406298B6A28405E6C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89FD4D4607999AEBE0822E1BF437195 /* DBJSCore.xcconfig */;
+			baseConfigurationReference = 51A9C780C1BA0CDF08399BD73923CB34 /* DBJSCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -749,9 +426,9 @@
 			};
 			name = Debug;
 		};
-		9B96EB99A59942A7652A61126A667761 /* Debug */ = {
+		9C4F58A1996844785A79A4D3E76CA107 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AF1D16EFFBF801A59549A3D43704F02 /* Pods-DBJSCore_Tests.debug.xcconfig */;
+			baseConfigurationReference = 51A9C780C1BA0CDF08399BD73923CB34 /* DBJSCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -762,51 +439,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DBJSCore_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DBJSCore/DBJSCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DBJSCore/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DBJSCore_Tests/Pods-DBJSCore_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DBJSCore_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/DBJSCore/DBJSCore.modulemap";
+				PRODUCT_NAME = DBJSCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -877,39 +519,9 @@
 			};
 			name = Debug;
 		};
-		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D5649880D2B178755E4E292DBA79CE08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE15601E5621B1E3BD96D9BA4C3DEB79 /* Pods-DBJSCore_Example.release.xcconfig */;
+			baseConfigurationReference = F21618FCDBC6841CB4FA77F6A035EA67 /* Pods-DBJSCore_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1010,15 +622,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C2B3928630ADB66E9E00109FF6F0A4A /* Build configuration list for PBXNativeTarget "DBJSCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8C37338C6F6F9C406298B6A28405E6C0 /* Debug */,
-				58C4F8F039278EAD3E27169FCBD2158E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5BC24C6BFE9D36BC3BE40307066DF2C9 /* Build configuration list for PBXNativeTarget "Pods-DBJSCore_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1028,20 +631,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4572215F1F6D105CBDF604E3EC5C957 /* Build configuration list for PBXNativeTarget "Pods-DBJSCore_Tests" */ = {
+		E83EDB7C5F672C52CD6B3489D8ACF97F /* Build configuration list for PBXNativeTarget "DBJSCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B96EB99A59942A7652A61126A667761 /* Debug */,
-				090D0DE3B46A7B2CF2BFE27B0EA3D54B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEA992D818C17C13A97E42D0734BF7D3 /* Debug */,
-				B2E52370F534DFE0FF7634F754F4F618 /* Release */,
+				389408383F8E6291B28542FB3103836E /* Debug */,
+				9C4F58A1996844785A79A4D3E76CA107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

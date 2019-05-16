@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DBJSCoreHeader.h"
 #import "DBJSCoreManager.h"
 #import "DBJSCoreRegisterModel.h"
 

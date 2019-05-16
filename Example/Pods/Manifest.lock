@@ -1,14 +1,8 @@
 PODS:
   - DBJSCore (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - DBJSCore (from `../`)
-  - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   DBJSCore:
@@ -16,8 +10,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DBJSCore: bba6bfb881c46f9b438462f15b3557866255ab8c
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
-PODFILE CHECKSUM: c4541758806807a964838ba74292a34a5d995be1
+PODFILE CHECKSUM: de65f536e7a7933f527d6a7da86e425aef6726e6
 
 COCOAPODS: 1.4.0

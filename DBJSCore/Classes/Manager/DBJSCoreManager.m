@@ -7,13 +7,14 @@
 
 #import "DBJSCoreManager.h"
 #import "DBJSCoreHeader.h"
+#import "DBJSCoreConfig.h"
 
 @interface DBJSCoreManager ()
 
 @property (nonatomic, copy, readwrite) void(^exceptionHandler)(NSString *code, NSString *exception);
 @property (nonatomic, strong, readwrite) JSContext *context;
 @property (nonatomic, strong, readwrite) NSMutableArray *JSCodeArray;
-@property (nonatomic, assign, readwrite) BOOL JSObjectRegister;;
+@property (nonatomic, assign, readwrite) BOOL JSCodeRegister;;
 
 @end
 
@@ -30,18 +31,38 @@
 }
 
 - (void)dbRegisterOCObjectWithObjectArray:(NSArray<DBJSCoreRegisterModel *> *)objArray {
+    if (objArray.count == 0) {
+        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbRegisterOCObjectWithObjectArray:"];
+        return;
+    }
     [self p_dbRegisterOCObjectWithObjectArray:objArray];
 }
 
-- (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray *)pathArray {
+- (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray<NSString *> *)pathArray {
+    if (!pathArray) {
+        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbRegisterJSCodeWithJSFilePathArray:"];
+        return;
+    }
     [self p_dbRegisterJSCodeWithJSFilePathArray:pathArray];
 }
 
 - (void)dbRegisterJSObjectWithJsonPath:(NSString *)path {
+    if (!path) {
+        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbRegisterJSObjectWithJsonPath:"];
+        return;
+    }
+    if (!self.JSCodeRegister) {
+        [self p_exceptionHandler:DBJSCoreErrorJSCodeUnRegister exception:@"JSCode unRegister"];
+        return;
+    }
     [self p_dbRegisterJSObjectWithJsonPath:path];
 }
 
 - (id)dbCallWithFunctionName:(NSString *)functionName parameter:(NSArray *)parameter {
+    if (functionName.length == 0) {
+        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbCallWithFunctionName:parameter:"];
+        return nil;
+    }
     return [self p_dbCallWithFunctionName:functionName parameter:parameter];
 }
 
@@ -49,7 +70,7 @@
 
 - (void)p_init {
     self.context.exceptionHandler = ^(JSContext *context, JSValue *exception) {
-        // 将JavaScriptCore的异常转化为内部异常
+        // TODO: add log. 将JavaScriptCore的异常转化为内部异常
     };
 }
 
@@ -64,11 +85,7 @@
 }
 
 // MARK:注册JS代码
-- (void)p_dbRegisterJSCodeWithJSFilePathArray:(NSArray *)pathArray {
-    if (!pathArray) {
-        // TODO: add log
-        return;
-    }
+- (void)p_dbRegisterJSCodeWithJSFilePathArray:(NSArray<NSString *> *)pathArray {
     kDBJSCoreWeakSelf
     [pathArray enumerateObjectsUsingBlock:^(NSString  *_Nonnull path, NSUInteger idx, BOOL * _Nonnull stop) {
         NSString *jscode;
@@ -81,25 +98,18 @@
         }
         jscode = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
         if (error) {
-            // TODO: add log
+            NSString *exception = [NSString stringWithFormat:@"url:%@, message:%@", url, error.localizedDescription];
+            [self p_exceptionHandler:DBJSCoreErrorReadStringFail exception:exception];
             return;
         }
         [weakSelf.JSCodeArray addObject:ISNIL(jscode)];
-        weakSelf.JSObjectRegister = YES;
+        weakSelf.JSCodeRegister = YES;
         [weakSelf.context evaluateScript:ISNIL(jscode)];
     }];
 }
 
 // MARK:注册JS对象
 - (void)p_dbRegisterJSObjectWithJsonPath:(NSString *)path {
-    if (!path) {
-        // TODO: add log
-        return;
-    }
-    if (!self.JSObjectRegister) {
-        // TODO: add log
-        return;
-    }
     NSError *error;
     NSURL *url;
     if ([path hasPrefix:@"http://"] || [path hasPrefix:@"https://"]) {
@@ -109,7 +119,8 @@
     }
     NSString *JSObjJson = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
     if (error) {
-        // TODO: add log
+        NSString *exception = [NSString stringWithFormat:@"url:%@, message:%@", url, error.localizedDescription];
+        [self p_exceptionHandler:DBJSCoreErrorReadStringFail exception:exception];
         return;
     }
     NSArray *JSObjArray = [ISNIL(JSObjJson) componentsSeparatedByString:@","];
@@ -128,7 +139,8 @@
             }
         }];
         if (exist) {
-            // TODO: add log. JS代码中包含对象的定义，需要提醒集成方
+            NSString *exception = [NSString stringWithFormat:@"%@ has exist", objCode];
+            [weakSelf p_exceptionHandler:DBJSCoreErrorJSObjDefineExist exception:exception];
             return;
         }
         [weakSelf.context evaluateScript:objCode];
@@ -137,7 +149,15 @@
 
 // MARK:调用JS方法
 - (id)p_dbCallWithFunctionName:(NSString *)functionName parameter:(NSArray *)parameter {
-    return nil;
+    JSValue *functionValue = self.context[functionName];
+    JSValue *value = [functionValue callWithArguments:parameter];
+    id obj = [value toObject];
+    return obj;
+}
+
+- (void)p_exceptionHandler:(NSUInteger)code exception:(NSString *)exception {
+    NSString *errorCode = [NSString stringWithFormat:@"%ld", code];
+    self.exceptionHandler(errorCode, exception);
 }
 
 #pragma mark - 懒加载方法

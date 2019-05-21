@@ -24,6 +24,11 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9B18A523228D0C34002C0A90 /* Log.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B18A522228D0C34002C0A90 /* Log.js */; };
+		9B7AB1502293CF7200B27F3E /* JavaScripObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB14F2293CF7200B27F3E /* JavaScripObject.json */; };
+		9B7AB1552293D15F00B27F3E /* test1.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1512293D15F00B27F3E /* test1.js */; };
+		9B7AB1562293D15F00B27F3E /* test2.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1522293D15F00B27F3E /* test2.js */; };
+		9B7AB1572293D15F00B27F3E /* test4.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1532293D15F00B27F3E /* test4.js */; };
+		9B7AB1582293D15F00B27F3E /* test3.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1542293D15F00B27F3E /* test3.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 		8D79DD52C4B6C534C41E293B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9135B3D3E07D1D4848EB9553 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B18A522228D0C34002C0A90 /* Log.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Log.js; sourceTree = "<group>"; };
+		9B7AB14F2293CF7200B27F3E /* JavaScripObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JavaScripObject.json; sourceTree = "<group>"; };
+		9B7AB1512293D15F00B27F3E /* test1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test1.js; sourceTree = "<group>"; };
+		9B7AB1522293D15F00B27F3E /* test2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test2.js; sourceTree = "<group>"; };
+		9B7AB1532293D15F00B27F3E /* test4.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test4.js; sourceTree = "<group>"; };
+		9B7AB1542293D15F00B27F3E /* test3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test3.js; sourceTree = "<group>"; };
 		C127E8D46C2EF5AF3653538E /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DBJSCore.podspec; path = ../DBJSCore.podspec; sourceTree = "<group>"; };
 		D5F4CDE0A5B1E6E3EF8FB1AA /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBJSCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,6 +207,11 @@
 			isa = PBXGroup;
 			children = (
 				9B18A522228D0C34002C0A90 /* Log.js */,
+				9B7AB1512293D15F00B27F3E /* test1.js */,
+				9B7AB1522293D15F00B27F3E /* test2.js */,
+				9B7AB1542293D15F00B27F3E /* test3.js */,
+				9B7AB1532293D15F00B27F3E /* test4.js */,
+				9B7AB14F2293CF7200B27F3E /* JavaScripObject.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -288,7 +303,12 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9B7AB1502293CF7200B27F3E /* JavaScripObject.json in Resources */,
+				9B7AB1562293D15F00B27F3E /* test2.js in Resources */,
+				9B7AB1582293D15F00B27F3E /* test3.js in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				9B7AB1572293D15F00B27F3E /* test4.js in Resources */,
+				9B7AB1552293D15F00B27F3E /* test1.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

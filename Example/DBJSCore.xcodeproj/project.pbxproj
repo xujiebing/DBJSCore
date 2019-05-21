@@ -29,6 +29,8 @@
 		9B7AB1562293D15F00B27F3E /* test2.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1522293D15F00B27F3E /* test2.js */; };
 		9B7AB1572293D15F00B27F3E /* test4.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1532293D15F00B27F3E /* test4.js */; };
 		9B7AB1582293D15F00B27F3E /* test3.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB1542293D15F00B27F3E /* test3.js */; };
+		9B7AB15C22941FE900B27F3E /* JS-OCObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB15B22941FE800B27F3E /* JS-OCObject.json */; };
+		9B7AB16422945A9400B27F3E /* DBJSCoreViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB16322945A9400B27F3E /* DBJSCoreViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,10 @@
 		9B7AB1522293D15F00B27F3E /* test2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test2.js; sourceTree = "<group>"; };
 		9B7AB1532293D15F00B27F3E /* test4.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test4.js; sourceTree = "<group>"; };
 		9B7AB1542293D15F00B27F3E /* test3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test3.js; sourceTree = "<group>"; };
+		9B7AB15B22941FE800B27F3E /* JS-OCObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "JS-OCObject.json"; sourceTree = "<group>"; };
+		9B7AB16122945A7D00B27F3E /* DBJSCoreExports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJSCoreExports.h; sourceTree = "<group>"; };
+		9B7AB16222945A9400B27F3E /* DBJSCoreViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJSCoreViewModel.h; sourceTree = "<group>"; };
+		9B7AB16322945A9400B27F3E /* DBJSCoreViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBJSCoreViewModel.m; sourceTree = "<group>"; };
 		C127E8D46C2EF5AF3653538E /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DBJSCore.podspec; path = ../DBJSCore.podspec; sourceTree = "<group>"; };
 		D5F4CDE0A5B1E6E3EF8FB1AA /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBJSCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +158,9 @@
 				9B18A521228D0C34002C0A90 /* Resources */,
 				6003F59C195388D20070C39A /* DBJSCoreAppDelegate.h */,
 				6003F59D195388D20070C39A /* DBJSCoreAppDelegate.m */,
+				9B7AB16122945A7D00B27F3E /* DBJSCoreExports.h */,
+				9B7AB16222945A9400B27F3E /* DBJSCoreViewModel.h */,
+				9B7AB16322945A9400B27F3E /* DBJSCoreViewModel.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DBJSCoreViewController.h */,
 				6003F5A6195388D20070C39A /* DBJSCoreViewController.m */,
@@ -212,6 +221,7 @@
 				9B7AB1542293D15F00B27F3E /* test3.js */,
 				9B7AB1532293D15F00B27F3E /* test4.js */,
 				9B7AB14F2293CF7200B27F3E /* JavaScripObject.json */,
+				9B7AB15B22941FE800B27F3E /* JS-OCObject.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -228,7 +238,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				CB6756AF15C49DD66EB546A5 /* [CP] Embed Pods Frameworks */,
-				7BF72EF30E72B46BCE33FCED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B18A523228D0C34002C0A90 /* Log.js in Resources */,
+				9B7AB15C22941FE900B27F3E /* JS-OCObject.json in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -323,21 +333,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7BF72EF30E72B46BCE33FCED /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AC42670C396B399E6C6A79F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,7 +357,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DBJSCore/DBJSCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -371,7 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DBJSCore_Example/Pods-DBJSCore_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -383,6 +378,7 @@
 			files = (
 				6003F59E195388D20070C39A /* DBJSCoreAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DBJSCoreViewController.m in Sources */,
+				9B7AB16422945A9400B27F3E /* DBJSCoreViewModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

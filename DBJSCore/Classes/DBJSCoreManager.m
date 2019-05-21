@@ -8,10 +8,10 @@
 #import "DBJSCoreManager.h"
 #import "DBJSCoreHeader.h"
 #import "DBJSCoreConfig.h"
+#import "DBJSCoreTool.h"
 
 @interface DBJSCoreManager ()
 
-@property (nonatomic, copy, readwrite) void(^exceptionHandler)(NSString *code, NSString *exception);
 @property (nonatomic, strong, readwrite) JSContext *context;
 @property (nonatomic, strong, readwrite) NSMutableArray *JSCodeArray;
 @property (nonatomic, assign, readwrite) BOOL JSCodeRegister;;
@@ -30,12 +30,12 @@
     return self;
 }
 
-- (void)dbRegisterOCObjectWithObjectArray:(NSArray<DBJSCoreRegisterModel *> *)objArray {
-    if (objArray.count == 0) {
-        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbRegisterOCObjectWithObjectArray:"];
+- (void)dbRegisterJSObjectAndOCObjectWithJsonPath:(NSString *)path {
+    if (DBStringIsEmpty(path)) {
+        [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbRegisterJSObjectAndOCObjectWithJsonPath:"];
         return;
     }
-    [self p_dbRegisterOCObjectWithObjectArray:objArray];
+    [self p_dbRegisterJSObjectAndOCObjectWithJsonPath:path];
 }
 
 - (void)dbRegisterJSCodeWithJSFilePathArray:(NSArray<NSString *> *)pathArray {
@@ -59,7 +59,7 @@
 }
 
 - (id)dbCallWithFunctionName:(NSString *)functionName parameter:(NSArray *)parameter {
-    if (functionName.length == 0) {
+    if (DBStringIsEmpty(functionName)) {
         [self p_exceptionHandler:DBJSCoreErrorParameterNil exception:@"parameter is nil, function:dbCallWithFunctionName:parameter:"];
         return nil;
     }
@@ -71,15 +71,41 @@
 - (void)p_init {
     self.context.exceptionHandler = ^(JSContext *context, JSValue *exception) {
         // TODO: add log. 将JavaScriptCore的异常转化为内部异常
+        NSLog(@"DBJSCore ERROR: %@", exception);
     };
 }
 
-// MARK:注册OC对象
-- (void)p_dbRegisterOCObjectWithObjectArray:(NSArray<DBJSCoreRegisterModel *> *)objArray {
+// MARK:注册JS-OC对象映射
+- (void)p_dbRegisterJSObjectAndOCObjectWithJsonPath:(NSString *)path {
+    NSError *error;
+    NSURL *url;
+    if ([path hasPrefix:@"http://"] || [path hasPrefix:@"https://"]) {
+        url = [NSURL URLWithString:path];
+    } else {
+        url = [NSURL fileURLWithPath:path];
+    }
+    NSString *JSOCObjJson = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+    if (error) {
+        NSString *exception = [NSString stringWithFormat:@"path:%@, message:%@", path, error.localizedDescription];
+        [self p_exceptionHandler:DBJSCoreErrorReadStringFail exception:exception];
+        return;
+    }
+    NSArray *JSOCObjArray = [DBJSCoreTool jsonValueDecoded:JSOCObjJson];
+    if (JSOCObjArray.count == 0) {
+        NSString *exception = [NSString stringWithFormat:@"path:%@, message:%@", path, error.localizedDescription];
+        [self p_exceptionHandler:DBJSCoreErrorJSOCObjException exception:exception];
+        return;
+    }
+    
     kDBJSCoreWeakSelf
-    [objArray enumerateObjectsUsingBlock:^(DBJSCoreRegisterModel * _Nonnull model, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSString *OCObj = model.OCObject;
-        NSString *JSObj = model.JSObject;
+    [JSOCObjArray enumerateObjectsUsingBlock:^(NSDictionary * _Nonnull dic, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSString *OCObj = [dic objectForKey:@"OCObject"];
+        NSString *JSObj = [dic objectForKey:@"JSObject"];;
+        if (DBStringIsEmpty(OCObj) || DBStringIsEmpty(JSObj)) {
+            NSString *exception = [NSString stringWithFormat:@"dic:%@, message:%@", dic, error.localizedDescription];
+            [self p_exceptionHandler:DBJSCoreErrorJSOCObjValueException exception:exception];
+            return;
+        }
         weakSelf.context[ISNIL(JSObj)] = NSClassFromString(ISNIL(OCObj));
     }];
 }
@@ -98,7 +124,7 @@
         }
         jscode = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
         if (error) {
-            NSString *exception = [NSString stringWithFormat:@"url:%@, message:%@", url, error.localizedDescription];
+            NSString *exception = [NSString stringWithFormat:@"path:%@, message:%@", path, error.localizedDescription];
             [self p_exceptionHandler:DBJSCoreErrorReadStringFail exception:exception];
             return;
         }
@@ -119,16 +145,19 @@
     }
     NSString *JSObjJson = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
     if (error) {
-        NSString *exception = [NSString stringWithFormat:@"url:%@, message:%@", url, error.localizedDescription];
+        NSString *exception = [NSString stringWithFormat:@"path:%@, message:%@", path, error.localizedDescription];
         [self p_exceptionHandler:DBJSCoreErrorReadStringFail exception:exception];
         return;
     }
+    JSObjJson = [JSObjJson stringByReplacingOccurrencesOfString:@" " withString:@""];
+    JSObjJson = [JSObjJson stringByReplacingOccurrencesOfString:@"\n" withString:@""];
     NSArray *JSObjArray = [ISNIL(JSObjJson) componentsSeparatedByString:@","];
     kDBJSCoreWeakSelf
     [JSObjArray enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull functionStop) {
-        if (obj.length == 0) {
+        if (DBStringIsEmpty(obj)) {
             return ;
         }
+        obj = [@"var " stringByAppendingString:obj];
         NSString *objCode = [obj stringByAppendingString:@"=this"];
         __block BOOL exist = NO;
         [weakSelf.JSCodeArray enumerateObjectsUsingBlock:^(NSString * _Nonnull JSCode, NSUInteger idx, BOOL * _Nonnull JSCodeStop) {
@@ -156,7 +185,11 @@
 }
 
 - (void)p_exceptionHandler:(NSUInteger)code exception:(NSString *)exception {
+    if (!self.exceptionHandler) {
+        return;
+    }
     NSString *errorCode = [NSString stringWithFormat:@"%ld", code];
+    exception = [@"DBJSCore Exception: " stringByAppendingString:exception];
     self.exceptionHandler(errorCode, exception);
 }
 

@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JavaScriptCore.h>
-#import "DBJSCoreRegisterModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,14 +15,14 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  异常回调
  */
-@property (nonatomic, copy, readonly) void(^exceptionHandler)(NSString *code, NSString *exception);
+@property (nonatomic, copy, readwrite) void(^exceptionHandler)(NSString *code, NSString *exception);
 
 /**
- 注册OC对象
+ 注册JS-OC对象映射
 
- @param objArray 对象名数组
+ @param path JS-OC对象映射文件的路径
  */
-- (void)dbRegisterOCObjectWithObjectArray:(NSArray <DBJSCoreRegisterModel *> *)objArray;
+- (void)dbRegisterJSObjectAndOCObjectWithJsonPath:(NSString *)path;
 
 /**
  注册JS代码

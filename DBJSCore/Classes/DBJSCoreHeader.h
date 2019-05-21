@@ -10,5 +10,7 @@
 
 #define kDBJSCoreWeakSelf __weak __typeof(self)weakSelf = self;
 #define ISNIL(x) ((x) == nil ? @"" : (x))
+#define DBStringIsEmpty(string) ((string.length) == 0 ? YES : NO)
+
 
 #endif /* DBJSCoreHeader_h */

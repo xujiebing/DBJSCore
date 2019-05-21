@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D376B04D32C067EFBFE21878FBEB9B6"
+               BlueprintIdentifier = "40BA055644A8424BF342DAC524939A35"
+               BuildableName = "DBJSCore.framework"
                BlueprintName = "DBJSCore"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "DBJSCore.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

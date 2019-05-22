@@ -69,9 +69,10 @@
 #pragma mark - 内部方法
 
 - (void)p_init {
+    kDBJSCoreWeakSelf
     self.context.exceptionHandler = ^(JSContext *context, JSValue *exception) {
-        // TODO: add log. 将JavaScriptCore的异常转化为内部异常
-        NSLog(@"DBJSCore ERROR: %@", exception);
+        NSString *message = [NSString stringWithFormat:@"%@", exception];
+        [weakSelf p_exceptionHandler:DBJSCoreErrorJSCoreException exception:message];
     };
 }
 

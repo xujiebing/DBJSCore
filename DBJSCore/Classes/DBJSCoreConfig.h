@@ -15,6 +15,7 @@ typedef enum : NSUInteger {
     DBJSCoreErrorJSObjDefineExist,          // JS对象重复定义
     DBJSCoreErrorJSOCObjException,          // JS-OC对象映射文件异常
     DBJSCoreErrorJSOCObjValueException,     // JS-OC映射文件中字典数据异常
+    DBJSCoreErrorJSCoreException,           // JSCore异常
 } DBJSCoreErrorCode;
 
 #endif /* DBJSCoreConfig_h */

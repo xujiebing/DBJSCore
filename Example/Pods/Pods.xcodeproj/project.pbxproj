@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062F34E8515B86C21A15C6F4FFD5187E /* DBJSCoreConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 885EAB61EE141A5CFE3A715F0DD6A5D3 /* DBJSCoreConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07EAAF4E478AA6E4CDF53B29F9943683 /* DBJSCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9963FC9EF843BF3AEC0BCFDE1DD7FC0F /* DBJSCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		190BE55B52AAB2A10963B15EBCD16B57 /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC8125670494426B25D2D974849E79 /* DBJSCore-dummy.m */; };
-		506A4965EC42887C43B77185EE31D8C6 /* DBJSCoreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C0AB2487DA8B436E2C30D01D4A5C9D /* DBJSCoreHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B6F5FB95A9C13C39935E3EDD6645C30 /* DBJSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A83D7B9482C97EDAFADF02BA955516 /* DBJSCoreManager.m */; };
-		6EEDD5BDF86C8767DBC3C4DCA5B85249 /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF4534D8D1E6D5230AE14DC5DA1EF08B /* DBJSCore.bundle */; };
-		868A80CF1B4A7C5704AE305A362941DF /* Pods-DBJSCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 674D4A63C694530F103EB5D5EEE443D2 /* Pods-DBJSCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B722CDAFA95453661277DAD0D4B03E4D /* DBJSCoreTool.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEB0DC6297F4FBCE78937C91C52831B /* DBJSCoreTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2FFB0FE481CC3CC27B8F65A46B49C0B /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BDBEA6B965D36495D60EFC1BBA11D7 /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD345A5091A5414EC7560DFA22199606 /* Pods-DBJSCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0ACA68F817D0E4D4DFDF36BAA5A4E /* Pods-DBJSCore_Example-dummy.m */; };
+		08D1B336DBFBB2DEE60C41DF10838381 /* DBJSCoreConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E9FCA96E0BF1265146BB37C2B454B1 /* DBJSCoreConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C55E849624D0601EC6CAD8A081B26F9 /* DBJSCoreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4773150AF0CF969486E3F4DC12DBFFCA /* DBJSCoreHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2775183734B4214070E838A9E289B6BD /* DBJSCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 265797BEB49045DA70F460DE04824760 /* DBJSCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3294E34E8EDA71357A361CE97708C584 /* DBJSCoreTool.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA1B6D0378CBE37C83689330A023C31 /* DBJSCoreTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43E253A007AF33FB0C5E14047D7C9539 /* DBJSCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFEDB4E1EFFFBAF80C8971F6D1B184B /* DBJSCore-dummy.m */; };
+		5D87BB684CBD4B54103DF5BC44EB201A /* DBJSCoreTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF76365E3FF3CB2FF01C632E6658356 /* DBJSCoreTool.m */; };
+		6EEDD5BDF86C8767DBC3C4DCA5B85249 /* DBJSCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62743AB742850635C76B9ECF0555BBD2 /* DBJSCore.bundle */; };
+		857652F9F177A896AE7004CDD354147F /* DBJSCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B509082928851EB9432A0309597D57E6 /* DBJSCoreManager.m */; };
+		868A80CF1B4A7C5704AE305A362941DF /* Pods-DBJSCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB1CD858D3E59607CAA936052F678CC /* Pods-DBJSCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1E96E99C3DE43FE57F683B076E41E0 /* DBJSCoreManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FADCEDC2FC1AAA69717ABEE2FB031B66 /* DBJSCoreManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD345A5091A5414EC7560DFA22199606 /* Pods-DBJSCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AFB5B0450F08C6F963686A6E0C2770 /* Pods-DBJSCore_Example-dummy.m */; };
 		E3D7BE40679C987D9EB8D6BA548FF99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F5089EC982C44FB4DD0715086CA7523F /* DBJSCoreTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D309642250DBFE2B284440A812937 /* DBJSCoreTool.m */; };
 		FBAE1CA333BC519F5F02D20BECA942A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,41 +27,41 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 40BA055644A8424BF342DAC524939A35;
+			remoteGlobalIDString = 600B4C53D3BBFFF8B95A08D38E6AA41B;
 			remoteInfo = DBJSCore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C0AB2487DA8B436E2C30D01D4A5C9D /* DBJSCoreHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreHeader.h; path = DBJSCore/Classes/DBJSCoreHeader.h; sourceTree = "<group>"; };
-		04CC672800E5FCA20F7FED76CA4C0BF1 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
-		0BF41384425D5F9C206E0AF350C174A9 /* Pods-DBJSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1F2F0E161541AF0E26996734063976EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		06E9FCA96E0BF1265146BB37C2B454B1 /* DBJSCoreConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreConfig.h; path = DBJSCore/Classes/DBJSCoreConfig.h; sourceTree = "<group>"; };
+		0BF76365E3FF3CB2FF01C632E6658356 /* DBJSCoreTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBJSCoreTool.m; path = DBJSCore/Classes/DBJSCoreTool.m; sourceTree = "<group>"; };
+		188841F1F1E95A7C4201A40839868A3A /* DBJSCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DBJSCore-Info.plist"; sourceTree = "<group>"; };
+		265797BEB49045DA70F460DE04824760 /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
 		26FB0779B35A1E5422C33DFE3A221C54 /* Pods_DBJSCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DBJSCore_Example.framework; path = "Pods-DBJSCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E234741047137BAF175A9732F14665 /* Pods-DBJSCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DBJSCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		594D309642250DBFE2B284440A812937 /* DBJSCoreTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBJSCoreTool.m; path = DBJSCore/Classes/DBJSCoreTool.m; sourceTree = "<group>"; };
-		62B9C9241AE51870756E54118C874CF3 /* Pods-DBJSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		64BDBEA6B965D36495D60EFC1BBA11D7 /* DBJSCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-umbrella.h"; sourceTree = "<group>"; };
-		66E0ACA68F817D0E4D4DFDF36BAA5A4E /* Pods-DBJSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Example-dummy.m"; sourceTree = "<group>"; };
-		674D4A63C694530F103EB5D5EEE443D2 /* Pods-DBJSCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Example-umbrella.h"; sourceTree = "<group>"; };
-		69EFA38AF8C02EEEA78913A51B75FAAC /* Pods-DBJSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78C8BFC32027DBC0C3F6EF623D7EF12F /* DBJSCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DBJSCore-Info.plist"; sourceTree = "<group>"; };
-		7F579B32C5633AC7C43B295BD8B3F1DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		885EAB61EE141A5CFE3A715F0DD6A5D3 /* DBJSCoreConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreConfig.h; path = DBJSCore/Classes/DBJSCoreConfig.h; sourceTree = "<group>"; };
-		8BEC8125670494426B25D2D974849E79 /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
-		9963FC9EF843BF3AEC0BCFDE1DD7FC0F /* DBJSCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreManager.h; path = DBJSCore/Classes/DBJSCoreManager.h; sourceTree = "<group>"; };
-		9ADE4D2B5384603FDAC5B32F80755514 /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BA7686A4141C2CDE81A0E3B14360287 /* Pods-DBJSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Example.modulemap"; sourceTree = "<group>"; };
+		4773150AF0CF969486E3F4DC12DBFFCA /* DBJSCoreHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreHeader.h; path = DBJSCore/Classes/DBJSCoreHeader.h; sourceTree = "<group>"; };
+		4AFEDB4E1EFFFBAF80C8971F6D1B184B /* DBJSCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DBJSCore-dummy.m"; sourceTree = "<group>"; };
+		4C199E88BB662EDB23A97790B7B818EA /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
+		4FB1CD858D3E59607CAA936052F678CC /* Pods-DBJSCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DBJSCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		602B1925457D30FDCBBBD866DD7803EE /* Pods-DBJSCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		62743AB742850635C76B9ECF0555BBD2 /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
+		72C8E6604C83550290D88D1696756266 /* Pods-DBJSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7795D4E7617604A2E45ECD1C0B581BE3 /* DBJSCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DBJSCore.xcconfig; sourceTree = "<group>"; };
+		8AE2BE3FED8401114CE87507D9512CB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92A6F5E6906F9E433319840AF1F74FC3 /* Pods-DBJSCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DBJSCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9915AB58E2DDC2DE78158AAFDCFDE8D4 /* Pods-DBJSCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DBJSCore_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3A83D7B9482C97EDAFADF02BA955516 /* DBJSCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBJSCoreManager.m; path = DBJSCore/Classes/DBJSCoreManager.m; sourceTree = "<group>"; };
-		A6D7C5246CEB9BA9D01E0FF281A36DB4 /* DBJSCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DBJSCore.modulemap; sourceTree = "<group>"; };
-		B00979714857A20B0235E7AECF5A5161 /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
-		BF4534D8D1E6D5230AE14DC5DA1EF08B /* DBJSCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DBJSCore.bundle; path = DBJSCore/Assets/DBJSCore.bundle; sourceTree = "<group>"; };
-		DA7F73C45BC747C0002999D2FFE53929 /* Pods-DBJSCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-Info.plist"; sourceTree = "<group>"; };
-		ECEB0DC6297F4FBCE78937C91C52831B /* DBJSCoreTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreTool.h; path = DBJSCore/Classes/DBJSCoreTool.h; sourceTree = "<group>"; };
-		ED57F1D591F42CC341BECD6A2072675D /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EEE62B545FFD74773A9E74970014F334 /* Pods-DBJSCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B509082928851EB9432A0309597D57E6 /* DBJSCoreManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DBJSCoreManager.m; path = DBJSCore/Classes/DBJSCoreManager.m; sourceTree = "<group>"; };
+		BCE18365F787E57459A53D1B448FC36E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB69A5097E5E7FD4908F55FD5F536511 /* Pods-DBJSCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DBJSCore_Example-Info.plist"; sourceTree = "<group>"; };
+		D43002EDF46FE42FE22D9B400A89A06B /* DBJSCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DBJSCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D76AC98472B0D539F2019AF1FFFDE059 /* DBJSCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DBJSCore-prefix.pch"; sourceTree = "<group>"; };
+		DFA1B6D0378CBE37C83689330A023C31 /* DBJSCoreTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreTool.h; path = DBJSCore/Classes/DBJSCoreTool.h; sourceTree = "<group>"; };
 		F6CB8025D325E54F79C31D95A8DDBE5D /* DBJSCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DBJSCore.framework; path = DBJSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AFB5B0450F08C6F963686A6E0C2770 /* Pods-DBJSCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DBJSCore_Example-dummy.m"; sourceTree = "<group>"; };
+		FADCEDC2FC1AAA69717ABEE2FB031B66 /* DBJSCoreManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DBJSCoreManager.h; path = DBJSCore/Classes/DBJSCoreManager.h; sourceTree = "<group>"; };
+		FE9DDEB1476FD6A2E0283CDA50D0CB39 /* Pods-DBJSCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DBJSCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,26 +93,49 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E14F8C833E24906CF169C4C6FE39DF8 /* Resources */ = {
+		3B10137D2075E69B0A97839366E17EA3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF4534D8D1E6D5230AE14DC5DA1EF08B /* DBJSCore.bundle */,
+				4C199E88BB662EDB23A97790B7B818EA /* DBJSCore.modulemap */,
+				7795D4E7617604A2E45ECD1C0B581BE3 /* DBJSCore.xcconfig */,
+				4AFEDB4E1EFFFBAF80C8971F6D1B184B /* DBJSCore-dummy.m */,
+				188841F1F1E95A7C4201A40839868A3A /* DBJSCore-Info.plist */,
+				D76AC98472B0D539F2019AF1FFFDE059 /* DBJSCore-prefix.pch */,
+				265797BEB49045DA70F460DE04824760 /* DBJSCore-umbrella.h */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DBJSCore";
 			sourceTree = "<group>";
 		};
-		3EE96E81F02E3C362915E8683160BCF8 /* DBJSCore */ = {
+		3FA7672F1CF9C6F81CBA54BE040750B0 /* Pods-DBJSCore_Example */ = {
 			isa = PBXGroup;
 			children = (
-				885EAB61EE141A5CFE3A715F0DD6A5D3 /* DBJSCoreConfig.h */,
-				03C0AB2487DA8B436E2C30D01D4A5C9D /* DBJSCoreHeader.h */,
-				9963FC9EF843BF3AEC0BCFDE1DD7FC0F /* DBJSCoreManager.h */,
-				A3A83D7B9482C97EDAFADF02BA955516 /* DBJSCoreManager.m */,
-				ECEB0DC6297F4FBCE78937C91C52831B /* DBJSCoreTool.h */,
-				594D309642250DBFE2B284440A812937 /* DBJSCoreTool.m */,
-				ECD564EDAF668543C9DC0E07EC3C037F /* Pod */,
-				2E14F8C833E24906CF169C4C6FE39DF8 /* Resources */,
-				9B0784CAA73D60B47256D03C8398D83B /* Support Files */,
+				9915AB58E2DDC2DE78158AAFDCFDE8D4 /* Pods-DBJSCore_Example.modulemap */,
+				92A6F5E6906F9E433319840AF1F74FC3 /* Pods-DBJSCore_Example-acknowledgements.markdown */,
+				602B1925457D30FDCBBBD866DD7803EE /* Pods-DBJSCore_Example-acknowledgements.plist */,
+				F9AFB5B0450F08C6F963686A6E0C2770 /* Pods-DBJSCore_Example-dummy.m */,
+				28E234741047137BAF175A9732F14665 /* Pods-DBJSCore_Example-frameworks.sh */,
+				CB69A5097E5E7FD4908F55FD5F536511 /* Pods-DBJSCore_Example-Info.plist */,
+				4FB1CD858D3E59607CAA936052F678CC /* Pods-DBJSCore_Example-umbrella.h */,
+				72C8E6604C83550290D88D1696756266 /* Pods-DBJSCore_Example.debug.xcconfig */,
+				FE9DDEB1476FD6A2E0283CDA50D0CB39 /* Pods-DBJSCore_Example.release.xcconfig */,
+			);
+			name = "Pods-DBJSCore_Example";
+			path = "Target Support Files/Pods-DBJSCore_Example";
+			sourceTree = "<group>";
+		};
+		52FEC3E10232F12DB929F14D95BFCD90 /* DBJSCore */ = {
+			isa = PBXGroup;
+			children = (
+				06E9FCA96E0BF1265146BB37C2B454B1 /* DBJSCoreConfig.h */,
+				4773150AF0CF969486E3F4DC12DBFFCA /* DBJSCoreHeader.h */,
+				FADCEDC2FC1AAA69717ABEE2FB031B66 /* DBJSCoreManager.h */,
+				B509082928851EB9432A0309597D57E6 /* DBJSCoreManager.m */,
+				DFA1B6D0378CBE37C83689330A023C31 /* DBJSCoreTool.h */,
+				0BF76365E3FF3CB2FF01C632E6658356 /* DBJSCoreTool.m */,
+				E9F7DDB848BE43ECC87F4A37B0B6F5DD /* Pod */,
+				AAFE1EF76DA151B81383161452145D5B /* Resources */,
+				3B10137D2075E69B0A97839366E17EA3 /* Support Files */,
 			);
 			name = DBJSCore;
 			path = ../..;
@@ -121,29 +144,23 @@
 		5F232B6E91A8FDE2E9D3221F96903D27 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F00CE653DDEC7F624461CDF324EC8DE2 /* Pods-DBJSCore_Example */,
+				3FA7672F1CF9C6F81CBA54BE040750B0 /* Pods-DBJSCore_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B0784CAA73D60B47256D03C8398D83B /* Support Files */ = {
+		AAFE1EF76DA151B81383161452145D5B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A6D7C5246CEB9BA9D01E0FF281A36DB4 /* DBJSCore.modulemap */,
-				04CC672800E5FCA20F7FED76CA4C0BF1 /* DBJSCore.xcconfig */,
-				8BEC8125670494426B25D2D974849E79 /* DBJSCore-dummy.m */,
-				78C8BFC32027DBC0C3F6EF623D7EF12F /* DBJSCore-Info.plist */,
-				B00979714857A20B0235E7AECF5A5161 /* DBJSCore-prefix.pch */,
-				64BDBEA6B965D36495D60EFC1BBA11D7 /* DBJSCore-umbrella.h */,
+				62743AB742850635C76B9ECF0555BBD2 /* DBJSCore.bundle */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DBJSCore";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B40F4A9932F7ECCADFE7519216327AB9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EE96E81F02E3C362915E8683160BCF8 /* DBJSCore */,
+				52FEC3E10232F12DB929F14D95BFCD90 /* DBJSCore */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -175,36 +192,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ECD564EDAF668543C9DC0E07EC3C037F /* Pod */ = {
+		E9F7DDB848BE43ECC87F4A37B0B6F5DD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9ADE4D2B5384603FDAC5B32F80755514 /* DBJSCore.podspec */,
-				1F2F0E161541AF0E26996734063976EE /* LICENSE */,
-				7F579B32C5633AC7C43B295BD8B3F1DB /* README.md */,
+				D43002EDF46FE42FE22D9B400A89A06B /* DBJSCore.podspec */,
+				8AE2BE3FED8401114CE87507D9512CB0 /* LICENSE */,
+				BCE18365F787E57459A53D1B448FC36E /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		F00CE653DDEC7F624461CDF324EC8DE2 /* Pods-DBJSCore_Example */ = {
-			isa = PBXGroup;
-			children = (
-				9BA7686A4141C2CDE81A0E3B14360287 /* Pods-DBJSCore_Example.modulemap */,
-				69EFA38AF8C02EEEA78913A51B75FAAC /* Pods-DBJSCore_Example-acknowledgements.markdown */,
-				62B9C9241AE51870756E54118C874CF3 /* Pods-DBJSCore_Example-acknowledgements.plist */,
-				66E0ACA68F817D0E4D4DFDF36BAA5A4E /* Pods-DBJSCore_Example-dummy.m */,
-				0BF41384425D5F9C206E0AF350C174A9 /* Pods-DBJSCore_Example-frameworks.sh */,
-				DA7F73C45BC747C0002999D2FFE53929 /* Pods-DBJSCore_Example-Info.plist */,
-				674D4A63C694530F103EB5D5EEE443D2 /* Pods-DBJSCore_Example-umbrella.h */,
-				EEE62B545FFD74773A9E74970014F334 /* Pods-DBJSCore_Example.debug.xcconfig */,
-				ED57F1D591F42CC341BECD6A2072675D /* Pods-DBJSCore_Example.release.xcconfig */,
-			);
-			name = "Pods-DBJSCore_Example";
-			path = "Target Support Files/Pods-DBJSCore_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		221EC7345A91C3730CD1296C37B89EFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2775183734B4214070E838A9E289B6BD /* DBJSCore-umbrella.h in Headers */,
+				08D1B336DBFBB2DEE60C41DF10838381 /* DBJSCoreConfig.h in Headers */,
+				0C55E849624D0601EC6CAD8A081B26F9 /* DBJSCoreHeader.h in Headers */,
+				9E1E96E99C3DE43FE57F683B076E41E0 /* DBJSCoreManager.h in Headers */,
+				3294E34E8EDA71357A361CE97708C584 /* DBJSCoreTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		238CF1BFF0925FE1F920FD4BD009ABA2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,27 +225,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		389A6E6D005150E79A1BC43CCF8BD483 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2FFB0FE481CC3CC27B8F65A46B49C0B /* DBJSCore-umbrella.h in Headers */,
-				062F34E8515B86C21A15C6F4FFD5187E /* DBJSCoreConfig.h in Headers */,
-				506A4965EC42887C43B77185EE31D8C6 /* DBJSCoreHeader.h in Headers */,
-				07EAAF4E478AA6E4CDF53B29F9943683 /* DBJSCoreManager.h in Headers */,
-				B722CDAFA95453661277DAD0D4B03E4D /* DBJSCoreTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		40BA055644A8424BF342DAC524939A35 /* DBJSCore */ = {
+		600B4C53D3BBFFF8B95A08D38E6AA41B /* DBJSCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 408E0085EE2FF77C4353EBB5B4786AB1 /* Build configuration list for PBXNativeTarget "DBJSCore" */;
 			buildPhases = (
-				389A6E6D005150E79A1BC43CCF8BD483 /* Headers */,
-				1401DFBE673AAB4CCAF6EE9BF45B9A5F /* Sources */,
+				221EC7345A91C3730CD1296C37B89EFC /* Headers */,
+				438302F5F19DA27E672B0CEFE81E68CF /* Sources */,
 				712A656E5B00241CD7142CE7B0D35EFA /* Frameworks */,
 				EBDE023AF64444B61035765C6EAA670D /* Resources */,
 			);
@@ -246,7 +246,7 @@
 			productReference = F6CB8025D325E54F79C31D95A8DDBE5D /* DBJSCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EEA8C636E79CC9325125EA422CD795F6 /* Pods-DBJSCore_Example */ = {
+		CF0CBC33D5C6FF25D103EB8876FDA613 /* Pods-DBJSCore_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E20638EBFE26749FB6A7CD0F2EF2273 /* Build configuration list for PBXNativeTarget "Pods-DBJSCore_Example" */;
 			buildPhases = (
@@ -286,8 +286,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40BA055644A8424BF342DAC524939A35 /* DBJSCore */,
-				EEA8C636E79CC9325125EA422CD795F6 /* Pods-DBJSCore_Example */,
+				600B4C53D3BBFFF8B95A08D38E6AA41B /* DBJSCore */,
+				CF0CBC33D5C6FF25D103EB8876FDA613 /* Pods-DBJSCore_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -311,13 +311,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1401DFBE673AAB4CCAF6EE9BF45B9A5F /* Sources */ = {
+		438302F5F19DA27E672B0CEFE81E68CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190BE55B52AAB2A10963B15EBCD16B57 /* DBJSCore-dummy.m in Sources */,
-				6B6F5FB95A9C13C39935E3EDD6645C30 /* DBJSCoreManager.m in Sources */,
-				F5089EC982C44FB4DD0715086CA7523F /* DBJSCoreTool.m in Sources */,
+				43E253A007AF33FB0C5E14047D7C9539 /* DBJSCore-dummy.m in Sources */,
+				857652F9F177A896AE7004CDD354147F /* DBJSCoreManager.m in Sources */,
+				5D87BB684CBD4B54103DF5BC44EB201A /* DBJSCoreTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +335,7 @@
 		623018C5C32E840A2DDB4F877904B6BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DBJSCore;
-			target = 40BA055644A8424BF342DAC524939A35 /* DBJSCore */;
+			target = 600B4C53D3BBFFF8B95A08D38E6AA41B /* DBJSCore */;
 			targetProxy = 6395B6A70B1BD0FE58ECDE8C64C3195E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,7 +403,7 @@
 		};
 		5D4D4DD7E99C8AAB441D890B4CF73A35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04CC672800E5FCA20F7FED76CA4C0BF1 /* DBJSCore.xcconfig */;
+			baseConfigurationReference = 7795D4E7617604A2E45ECD1C0B581BE3 /* DBJSCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -498,7 +498,7 @@
 		};
 		80DC95CCB832E46F16CE6A53B6479A9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEE62B545FFD74773A9E74970014F334 /* Pods-DBJSCore_Example.debug.xcconfig */;
+			baseConfigurationReference = 72C8E6604C83550290D88D1696756266 /* Pods-DBJSCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -531,7 +531,7 @@
 		};
 		DF4019BE8885DAB28F4B98262E7EB16C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED57F1D591F42CC341BECD6A2072675D /* Pods-DBJSCore_Example.release.xcconfig */;
+			baseConfigurationReference = FE9DDEB1476FD6A2E0283CDA50D0CB39 /* Pods-DBJSCore_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -565,7 +565,7 @@
 		};
 		EA47715AA9B62D9612271E4B19C32C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04CC672800E5FCA20F7FED76CA4C0BF1 /* DBJSCore.xcconfig */;
+			baseConfigurationReference = 7795D4E7617604A2E45ECD1C0B581BE3 /* DBJSCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
